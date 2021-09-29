@@ -1,0 +1,100 @@
+-- Copyright (C) 1991-2010 Altera Corporation
+-- Your use of Altera Corporation's design tools, logic functions 
+-- and other software and tools, and its AMPP partner logic 
+-- functions, and any output files from any of the foregoing 
+-- (including device programming or simulation files), and any 
+-- associated documentation or information are expressly subject 
+-- to the terms and conditions of the Altera Program License 
+-- Subscription Agreement, Altera MegaCore Function License 
+-- Agreement, or other applicable license agreement, including, 
+-- without limitation, that your use is for the sole purpose of 
+-- programming logic devices manufactured by Altera and sold by 
+-- Altera or its authorized distributors.  Please refer to the 
+-- applicable agreement for further details.
+
+-- Quartus II generated Memory Initialization File (.mif)
+
+WIDTH=64;
+DEPTH=256;
+ADDRESS_RADIX=UNS;
+DATA_RADIX=BIN;
+
+CONTENT BEGIN
+
+000:		0;
+001:		0;
+002:		0;
+003:		0;
+[004..047]:	0;
+
+--48 "0"
+--000 01110	1
+--000 10001	2
+--000 10111	3
+--000 10101	4
+--000 11101	5
+--000 10001	6
+--000 01110	7
+--000 00000	8
+--		|1      |2      |3      |4      |5      |6      |7      |8
+048:	0000111000010001000101110001010100011101000100010000111000000000;
+
+[049..066]:	0;
+
+--67 "D"
+--000 11110	1
+--000 10001	2
+--000 10001	3
+--000 10001	4
+--000 10001	5
+--000 10001	6
+--000 11110	7
+--000 00000	8
+--		|1      |2      |3      |4      |5      |6      |7      |8
+067:	0001111000010001000100010001000100010001000100010001111000000000;
+
+[068..069]:	0;
+
+--70 "F"
+--000 11111	1
+--000 10000	2
+--000 10000	3
+--000 11110	4
+--000 10000	5
+--000 10000	6
+--000 10000	7
+--000 00000	8
+--		|1      |2      |3      |4      |5      |6      |7      |8
+070:	0001111100010000000100000001111000010000000100000001000000000000;
+
+[071..192]:	0;
+
+--193 "Á"
+--000 11111	1
+--000 10000	2
+--000 10000	3
+--000 11111	4
+--000 10001	5
+--000 10001	6
+--000 11111	7
+--000 00000	8
+--		|1      |2      |3      |4      |5      |6      |7      |8
+193:	0001111100010000000100000001111100010001000100010001111100000000;
+
+194:	0;
+
+--195 "Ã"
+--000 11111	1
+--000 10000	2
+--000 10000	3
+--000 10000	4
+--000 10000	5
+--000 10000	6
+--000 10000	7
+--000 00000	8
+--		|1      |2      |3      |4      |5      |6      |7      |8
+195:	0001111100010000000100000001000000010000000100000001000000000000;
+
+[196..255]:	0;
+
+END;
